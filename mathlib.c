@@ -327,8 +327,8 @@ void VectorMatrix(vec3_t forward, vec3_t right, vec3_t up) {
 	}
 
 	tmp[0] = 0.0f;
-    tmp[1] = 0.0f;
-    tmp[2] = 1.0f;
+	tmp[1] = 0.0f;
+	tmp[2] = 1.0f;
 
 	CrossProduct(forward, tmp, right);
 	VectorNormalize(right);
